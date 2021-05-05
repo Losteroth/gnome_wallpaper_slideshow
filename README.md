@@ -1,4 +1,1 @@
-A simple command-line application.
-
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+A simple app that create a wallpaper slideshow from the folder with images for GNOME.
