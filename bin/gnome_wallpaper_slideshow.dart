@@ -14,9 +14,9 @@ void generateXMLs(List<String> args) {
   var slideshowConfig = File(args[0] + '/' + args[1] + '.xml');
   var filesRaw = Directory(args[0]).listSync();
   var files = filesRaw
-      .where((element) => (element.path.toString().endsWith('.jpg') |
-          element.path.toString().endsWith('.png') |
-          element.path.toString().endsWith('.xcf') |
+      .where((element) => (element.path.toString().endsWith('.jpg') ||
+          element.path.toString().endsWith('.png') ||
+          element.path.toString().endsWith('.xcf') ||
           element.path.toString().endsWith('.svg')))
       .toList();
 
