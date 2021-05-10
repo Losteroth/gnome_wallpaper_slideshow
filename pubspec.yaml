@@ -1,5 +1,5 @@
 name: gnome_wallpaper_slideshow
-description: A simple command-line application.
+description: A simple command-line app that configures a wallpaper slideshow in GNOME environment.
 
 environment:
   sdk: '>=2.10.0 <3.0.0'
